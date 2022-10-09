@@ -1,4 +1,4 @@
-# DAO-Real-Estate-Loaning-System
+# Project MICASA - DAO-Real-Estate-Loaning-System
 
 ## Installation
 DAO based off on-chain governance implementation of brownie-mix.
@@ -13,25 +13,31 @@ DAO based off on-chain governance implementation of brownie-mix.
 
 ## How to use
 
-### Creating the DAO
+###System Scripts
+#### Deployment of contracts (FOR FIRST RUN)
 Run "brownie run scripts/governance_standard/deploy_and_run.py --network hardhat"
 
-### To send in a proposal
-Run 
+#### Check Outcome of Loan Proposals and Further Actions
+Run "brownie run scripts/governance_standard/check_queue_and_execute.py --network hardhat"
 
-### To see all available proposals
-Run
+#### Move the blockhain forward (Since on simulating on Virtual Machine)
+Run "brownie run scripts/governance_standard/move_blocks.py --network hardhat"
 
-### To invest into the DAO
+### Borrower Scripts
+#### To Submit a Loan Proposal
+Run "brownie run scripts/borrowers/submit_proposal.py --network hardhat"
 
-### To withdraw from DAO for investors and for loaner
+#### To Check Proposal Status
+Run "brownie run scripts/borrowers/check_proposal_status.py --network hardhat"
 
-### To see amount of token
+### Investor Scripts
+#### Viewing Loan Proposal
+Run "brownie run scripts/investors/viewing_proposal.py --network hardhat"
 
-### TO see percentage of stake in pool
 
-### Background check?
+#### Voting on Loan Proposal
+Run "brownie run scripts/investors/voting_on_proposal.py --network hardhat"
 
-### interest rate amount
+#### Depositing Ether into the DAO
+Run "brownie run scripts/investors/depositing.py --network hardhat"
 
-### check monthly
