@@ -18,7 +18,7 @@ DAO based off on-chain governance implementation of brownie-mix.
 Defines our MICASA token
 
 #### GovernorContract
-1. Governs proposals that have not yet been approved.
+1. Governs proposals that have not yet been approved. Governs the voting process
 2. Submits proposals that have been approved and submits them to GovernorTimeLock.
 
 #### GovernorTimeLock
