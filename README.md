@@ -22,3 +22,16 @@ Run
 ### To see all available proposals
 Run
 
+### To invest into the DAO
+
+### To withdraw from DAO for investors and for loaner
+
+### To see amount of token
+
+### TO see percentage of stake in pool
+
+### Background check?
+
+### interest rate amount
+
+### check monthly
