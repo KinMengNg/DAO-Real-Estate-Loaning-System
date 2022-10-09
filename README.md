@@ -57,3 +57,8 @@ Run "brownie run scripts/investors/voting_on_proposal.py --network hardhat"
 #### Depositing Ether into the DAO
 Run "brownie run scripts/investors/depositing.py --network hardhat"
 
+##Mock Up Using FIGMA
+![image](https://user-images.githubusercontent.com/85046928/194754304-71fff647-8d3d-4bad-b3b0-893d20999c61.png)
+![image](https://user-images.githubusercontent.com/85046928/194754318-9a164067-360b-4c6a-bda1-849467b70c5a.png)
+![image](https://user-images.githubusercontent.com/85046928/194754335-d59d349c-f9d8-4076-b586-0f14dd11caf0.png)
+
