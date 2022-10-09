@@ -11,4 +11,14 @@ DAO based off on-chain governance implementation of brownie-mix.
 6. npm install -g yarn
 7. yarn add hardhat (DO THIS IN THE LOCAL FOLDER, NOT GLOBALLY)
 
-##
+## How to use
+
+###Creating the DAO
+Run "brownie run scripts/governance_standard/deploy_and_run.py --network hardhat"
+
+###To send in a proposal
+Run 
+
+###To see all available proposals
+Run
+
