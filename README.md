@@ -11,9 +11,25 @@ DAO based off on-chain governance implementation of brownie-mix.
 6. npm install -g yarn
 7. yarn add hardhat (DO THIS IN THE LOCAL FOLDER, NOT GLOBALLY)
 
-## How to use
+## How to Use
 
-###System Scripts
+### Contracts
+#### GovernanceToken
+Defines our MICASA token
+
+#### GovernorContract
+1. Governs proposals that have not yet been approved.
+2. Submits proposals that have been approved and submits them to GovernorTimeLock.
+
+#### GovernorTimeLock
+1. Governs the proposals that have been approved.
+2. Executes the proposal after the time lock period.
+
+#### Treasury
+1. The 'wallet' of the DAO
+2. Governs the total value of the DAO.
+
+### System Scripts
 #### Deployment of contracts (FOR FIRST RUN)
 Run "brownie run scripts/governance_standard/deploy_and_run.py --network hardhat"
 
