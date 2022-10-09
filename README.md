@@ -13,7 +13,7 @@ DAO based off on-chain governance implementation of brownie-mix.
 
 ## How to use
 
-###Creating the DAO
+/bCreating the DAOb/
 Run "brownie run scripts/governance_standard/deploy_and_run.py --network hardhat"
 
 ###To send in a proposal
